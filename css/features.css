@@ -1,0 +1,40 @@
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.feature-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+}
+
+.feature-icon {
+  fill: #2e2f42;
+}
+
+.features-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.feature-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.feature-list-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
