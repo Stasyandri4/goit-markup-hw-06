@@ -28,27 +28,39 @@
         >
         <nav>
           <ul class="nav-menu">
-            <li>
+            <li class="nav-menu-item">
               <a class="nav-link nav-link-active" href="#features">Features</a>
             </li>
-            <li><a class="nav-link" href="#team">Team</a></li>
-            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-menu-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
           </ul>
         </nav>
         <address>
           <ul class="address-menu">
-            <li>
+            <li class="address-menu-item">
               <a class="contact-info" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-menu-item">
               <a class="contact-info" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+
+        <button class="burger-menu-btn" type="button">
+          <a href="">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </a>
+        </button>
       </div>
     </header>
     <!-- #endregion nav -->
@@ -126,6 +138,7 @@
             <li class="team-member">
               <img
                 class="team-member-image"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                 src="./images/team-1.jpg"
                 width="264"
                 alt="Mark Guerrero"
@@ -168,6 +181,7 @@
             <li class="team-member">
               <img
                 class="team-member-image"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                 src="./images/team-2.jpg"
                 width="264"
                 alt="Tom Ford"
@@ -210,6 +224,7 @@
             <li class="team-member">
               <img
                 class="team-member-image"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                 src="./images/team-3.jpg"
                 width="264"
                 alt="Camila Garcia"
@@ -252,6 +267,7 @@
             <li class="team-member">
               <img
                 class="team-member-image"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                 src="./images/team-4.jpg"
                 width="264"
                 alt="Daniel Wilson"
@@ -303,9 +319,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   src="./images/portfolio-1.jpg"
                   alt="Banking App"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -322,9 +342,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   src="./images/portfolio-2.jpg"
                   alt="Cashless Payment"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -341,9 +365,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   src="./images/portfolio-3.jpg"
                   alt="Meditation App"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -360,9 +388,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   src="./images/portfolio-4.jpg"
                   alt="Taxi Service"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -379,9 +411,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   src="./images/portfolio-5.jpg"
                   alt="Screen Illustrations"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -398,9 +434,13 @@
               <div class="details-container">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   src="./images/portfolio-6.jpg"
                   alt="Online Courses"
-                  width="360"
+                  width="288"
                 />
                 <p class="portfolio-details">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -576,6 +616,77 @@
           </ul>
         </form>
       </div>
+    </div>
+
+    <div class="mobile-menu">
+      <button class="mobile-menu-close" type="submit">
+        <svg width="8" height="8" class="mobile-menu-close-icon">
+          <use href="./images/icons.svg#icon-cross"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="" class="mobile-nav-link">Studio</a>
+          </li>
+          <li>
+            <a href="" class="mobile-nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="mobile-nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address>
+        <ul class="mobile-menu-address-list">
+          <li>
+            <a href="tel:+110001111111" class="mobile-menu-address-item">
+              +11 (000) 111-11-11
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu-address-item"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+
+        <ul class="mobile-menu-socials">
+          <li>
+            <a href="" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
     </div>
   </body>
 </html>
