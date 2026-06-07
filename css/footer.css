@@ -182,4 +182,9 @@
   .footer-socials {
     margin-right: 84px;
   }
+
+  .footer-subscription {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

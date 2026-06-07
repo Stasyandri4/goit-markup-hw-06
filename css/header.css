@@ -90,6 +90,10 @@
     gap: 40px;
   }
 
+  .nav-menu {
+    margin-right: 119px;
+  }
+
   .nav-link {
     padding-top: 24px;
     padding-bottom: 24px;
