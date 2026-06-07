@@ -1,12 +1,8 @@
 .mobile-menu {
   position: fixed;
-  display: flex;
-  flex-direction: column;
-  row-gap: 186px;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
   background-color: #ffffff;
   z-index: 999;
   padding: 72px 16px 40px;
@@ -22,6 +18,12 @@
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
+}
+
+.mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .mobile-menu-close {
@@ -61,6 +63,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+  margin-bottom: 168px;
 }
 
 .mobile-nav-link {
