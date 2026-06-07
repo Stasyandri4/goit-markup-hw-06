@@ -139,6 +139,10 @@
     text-align: start;
   }
 
+  .footer-socials {
+    margin-bottom: 72px;
+  }
+
   .social-paragraph {
     text-align: start;
   }
@@ -181,7 +185,6 @@
 
   .footer-socials {
     margin-right: 83px;
-    margin-bottom: 72px;
   }
 
   .footer-subscription {
