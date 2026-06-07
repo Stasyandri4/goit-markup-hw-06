@@ -80,6 +80,7 @@
 .mobile-menu-address-list {
   display: flex;
   flex-direction: column;
+  font-style: normal;
   row-gap: 24px;
   margin-bottom: 48px;
 }
@@ -89,13 +90,12 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #4d5ae5;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu-address-item:hover,
-.mobile-menu-address-item:focus {
-  color: #4d5ae5;
+.mobile-email {
+  color: #434455;
 }
 
 .mobile-menu-socials {
@@ -118,4 +118,10 @@
 .mobile-menu-social-link:hover,
 .mobile-menu-social-link:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }

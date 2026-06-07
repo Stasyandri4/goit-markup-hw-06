@@ -98,6 +98,8 @@
       ),
       url(../images/Desktop/hero-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 
   .main-hero-heading {
