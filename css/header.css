@@ -90,19 +90,15 @@
     gap: 40px;
   }
 
-  .nav-menu {
-    margin-right: 119px;
-  }
-
   .nav-link {
     padding-top: 24px;
     padding-bottom: 24px;
   }
 
   .address-menu {
-    display: flex;
     flex-direction: column;
     row-gap: 12px;
+    margin-left: auto;
   }
 
   .burger-menu-btn {
@@ -123,7 +119,7 @@
 
   .address-menu {
     flex-direction: row;
-    margin-left: 340px;
+    margin-left: auto;
   }
 
   .contact-info {
