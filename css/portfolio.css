@@ -3,6 +3,10 @@
   padding-top: 96px;
 }
 
+.portfolio > .container {
+  align-items: stretch;
+}
+
 .portfolio-heading {
   color: #2e2f42;
   font-size: 36px;
@@ -81,10 +85,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio > .container {
-    max-width: 768px;
-  }
-
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -97,7 +97,7 @@
   }
 
   .portfolio-list-item {
-    flex-basis: calc((100% - 24) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -105,12 +105,6 @@
   .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-
-  .portfolio > .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .portfolio-list {

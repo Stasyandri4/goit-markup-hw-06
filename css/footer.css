@@ -127,11 +127,12 @@
 
 @media screen and (min-width: 768px) {
   .footer > .container {
-    max-width: 768px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
 
   .footer-motto {
@@ -164,9 +165,6 @@
   }
 
   .footer > .container {
-    max-width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
     align-items: flex-start;
     flex-wrap: nowrap;
   }

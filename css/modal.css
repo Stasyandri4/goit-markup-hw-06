@@ -28,7 +28,7 @@
   gap: 16px;
   border-radius: 4px;
   padding: 72px 16px 24px;
-  max-width: 408px;
+  max-width: 288px;
   max-height: 623px;
   margin-right: auto;
   margin-left: auto;
@@ -255,6 +255,7 @@
   .modal {
     padding-left: 24px;
     padding-right: 24px;
+    max-width: 408px;
     max-height: 584px;
   }
 }
